@@ -3,4 +3,4 @@ project(EjerciciosCActualizacion C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(EjerciciosCActualizacion  6_EjerciciosArreglos/SumaMatricesConDatosUsuario.c)
+add_executable(EjerciciosCActualizacion  7_EjerciciosEstructuras/MayorMenorSalario.c)
