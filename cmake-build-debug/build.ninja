@@ -61,11 +61,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_EjerciciosCActualizacion: phony || CMakeFiles/EjerciciosCActualizacion.dir
 
-build CMakeFiles/EjerciciosCActualizacion.dir/7_EjerciciosEstructuras/MayorMenorSalario.c.obj: C_COMPILER__EjerciciosCActualizacion_Debug G$:/EjerciciosCActualizacion/7_EjerciciosEstructuras/MayorMenorSalario.c || cmake_object_order_depends_target_EjerciciosCActualizacion
-  DEP_FILE = CMakeFiles\EjerciciosCActualizacion.dir\7_EjerciciosEstructuras\MayorMenorSalario.c.obj.d
+build CMakeFiles/EjerciciosCActualizacion.dir/8_EjerciciosApuntadores/NumerosParesEImparesConPosicionEnMemoria.c.obj: C_COMPILER__EjerciciosCActualizacion_Debug G$:/EjerciciosCActualizacion/8_EjerciciosApuntadores/NumerosParesEImparesConPosicionEnMemoria.c || cmake_object_order_depends_target_EjerciciosCActualizacion
+  DEP_FILE = CMakeFiles\EjerciciosCActualizacion.dir\8_EjerciciosApuntadores\NumerosParesEImparesConPosicionEnMemoria.c.obj.d
   FLAGS = -g -std=gnu17
   OBJECT_DIR = CMakeFiles\EjerciciosCActualizacion.dir
-  OBJECT_FILE_DIR = CMakeFiles\EjerciciosCActualizacion.dir\7_EjerciciosEstructuras
+  OBJECT_FILE_DIR = CMakeFiles\EjerciciosCActualizacion.dir\8_EjerciciosApuntadores
 
 
 # =============================================================================
@@ -75,7 +75,7 @@ build CMakeFiles/EjerciciosCActualizacion.dir/7_EjerciciosEstructuras/MayorMenor
 #############################################
 # Link the executable EjerciciosCActualizacion.exe
 
-build EjerciciosCActualizacion.exe: C_EXECUTABLE_LINKER__EjerciciosCActualizacion_Debug CMakeFiles/EjerciciosCActualizacion.dir/7_EjerciciosEstructuras/MayorMenorSalario.c.obj
+build EjerciciosCActualizacion.exe: C_EXECUTABLE_LINKER__EjerciciosCActualizacion_Debug CMakeFiles/EjerciciosCActualizacion.dir/8_EjerciciosApuntadores/NumerosParesEImparesConPosicionEnMemoria.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EjerciciosCActualizacion.dir
